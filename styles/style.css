@@ -10,7 +10,7 @@
   color: #ffffff;
   background-color: #f00;
   font-size: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   padding: 16px 32px;
   justify-content: center;
@@ -20,10 +20,10 @@
   margin-top: 48px;
   transition: 1s;
 }
-.btn-primary:hover{
-    color: #f00;
-    background: #100e0e;
-    border: 2px solid #f00;
+.btn-primary:hover {
+  color: #f00;
+  background: #100e0e;
+  border: 2px solid #f00;
 }
 
 /* font-family: 'Inter', sans-serif;
@@ -145,6 +145,8 @@ font-family: 'Merriweather', serif; */
   border: 2px solid white;
   color: #070211;
 }
+
+/* Event location section styling */
 .event-container {
   display: flex;
   justify-content: center;
@@ -155,8 +157,11 @@ font-family: 'Merriweather', serif; */
   height: 480px;
   border-radius: 16px;
   text-align: center;
-  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
 }
 .event-contents p {
   color: #070211;
@@ -166,3 +171,58 @@ font-family: 'Merriweather', serif; */
   line-height: 56px;
 }
 
+/* Coming soon section styling */
+
+.coming-soon-wrapper {
+  display: flex;
+  justify-content: center;
+align-items: center;
+  margin: 120px auto 120px auto;
+  width: 100%;
+  max-width: 1320px;
+  gap: 70px;
+}
+.coming-soon-column1 {
+  max-width: 392px;
+}
+.coming-soon-column1 h4 {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.coming-soon-column1 h3 {
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.coming-soon-column1 p , .coming-soon-column3 p{
+  color: #07021199;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+.coming-soon-column2 {
+  border: 10px solid #f00;
+  border-radius: 50%;
+  padding: 10px;
+}
+.coming-soon-column2 img{
+    width:364px;
+    display: flex;
+    align-items: center;
+}
+.coming-soon-column3 h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.coming-soon-column3{
+
+}
