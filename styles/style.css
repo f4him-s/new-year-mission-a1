@@ -271,6 +271,7 @@ font-family: 'Merriweather', serif; */
   margin-top: 83px;
   position: absolute;
 }
+/* Portfolio section styling */
 .portfolio {
   width: 100%;
   max-width: 1320px;
@@ -279,7 +280,6 @@ font-family: 'Merriweather', serif; */
 .portfolio-text-section {
   margin-top: 120px;
   margin-right: 350px;
-  
 }
 .portfolio-text-section h4 {
   font-family: "Inter", sans-serif;
@@ -300,23 +300,57 @@ font-family: 'Merriweather', serif; */
   line-height: 32px;
   margin-bottom: 48px;
 }
-.portfolio-images-wrap{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 24px;
+.portfolio-images-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 24px;
 }
-.portfolio-images-wrap div{
-    border-radius: 16px;
+.portfolio-images-wrap div {
+  border-radius: 16px;
 }
 
-.portfolio-images-wrap{
-    margin-bottom: 120px;
+.portfolio-images-wrap {
+  margin-bottom: 120px;
 }
-.portfolio-img{
-    transition: .75s ease-in-out;
+.portfolio-img {
+  transition: 0.75s ease-in-out;
 }
-.portfolio-img:hover{
-    transform: scale(1.2);
-    box-shadow: 0 0 15px 0 rgba(1, 48, 255, 0.464);
+.portfolio-img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px 0 rgba(1, 48, 255, 0.464);
+}
+.newsletter {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto 120px auto;
+  border-radius: 16px;
+  background: #ff00000d;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+.newsletter-ico-h-p{
+    padding: 80px 210px 0px 210px;
+}
+.newsletter-ico-h-p img{
+    margin-bottom: 48px;
+}
+.newsletter-ico-h-p h2{
+    color: #070211;
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.newsletter-ico-h-p p{
+    color: #07021199;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+.input-btn [type="email"]{
+    padding: 25px 475px 25px 30px;
 }
